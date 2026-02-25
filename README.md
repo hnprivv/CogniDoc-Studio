@@ -113,8 +113,8 @@ Once your `.venv` is active:
 
 ```bash
 # Clone the repository
-git clone [https://github.com/yourusername/cognidoc-studio.git](https://github.com/yourusername/cognidoc-studio.git)
-cd cognidoc-studio
+git clone [https://github.com/hnprivv/CogniDoc-Studio.git](https://github.com/hnprivv/CogniDoc-Studio.git)
+cd CogniDoc-Studio
 
 # Install dependencies
 pip install -r requirements.txt
