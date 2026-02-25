@@ -1,0 +1,32 @@
+/* Reduce global top padding */
+.block-container {
+    padding-top: 1rem !important;
+}
+
+/* Tighten sidebar element spacing */
+[data-testid="stSidebarViewPort"] .stVerticalBlock {
+    gap: 0.4rem !important;
+}
+
+/* Adjust sidebar headers */
+[data-testid="stSidebar"] h2 {
+    font-size: 1.1rem !important;
+    margin-bottom: -5px !important;
+    color: #FFFFFF;
+}
+
+/* Compact Dividers */
+hr {
+    margin: 0.3rem 0px !important;
+    opacity: 0.4;
+}
+
+/* Reduce padding around the file uploader widget */
+[data-testid="stFileUploader"] {
+    padding-bottom: 0px !important;
+}
+
+/* Shrink the caption text slightly */
+.stCaptionContainer {
+    font-size: 0.75rem !important;
+}
