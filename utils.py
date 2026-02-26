@@ -8,7 +8,7 @@ from collections import Counter
 from textblob import TextBlob
 from pypdf import PdfReader
 import streamlit as st
-from time import time
+import time
 import os
 import re
 import docx
