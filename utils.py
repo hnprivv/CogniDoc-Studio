@@ -230,7 +230,7 @@ class AppUtils:
         vector_db = Chroma.from_texts(
             texts=chunks, 
             embedding=embeddings,
-            collection_name=f"temp_{int(time())}"
+            collection_name=f"temp_{int(time.time())}"
         )
         return vector_db
 
